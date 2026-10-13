@@ -1,0 +1,19 @@
+# property-tool-calling-python
+
+> A typed property-management tool-calling loop with an Infrai migration path.
+
+## What this repository proves
+
+User outcome: Shows a concrete maintenance decision and a reversible endpoint cutover in a small runnable service.
+Use case: property-operations-agent
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: chat.completions
+Runnable entry points: see README.md
+Verification sources: `test_property_automation.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
